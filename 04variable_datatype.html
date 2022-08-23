@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1 id="getValue"></h1>
+
+	<script type="text/javascript">
+		
+		// 1. var : default and global : 
+
+			// => ALLOWED
+
+		// 2. let
+			// => Re-declaration not ALLOWED
+
+		// 3. const
+
+		// => NOTHING ALLOWED
+
+		//a=23; // assignment
+
+		// var a = 23; // declaration
+		// var a = 56; // Re-declaration ALLOWED
+		// a=98;       // Re-assignment ALLOWED
+
+		// document.write(a)
+
+
+		//let a = 23; // declaration
+		//let a = 56; // Re-declaration NOT ALLOWED
+		//a=98;       // Re-assignment
+
+		//document.write(a)
+
+
+		const a = 23; // declaration
+		//const a = 56; // Re-declaration
+		//a=98;       // Re-assignment
+
+		document.write(a)
+		console.log(a)
+
+		document.getElementById('getValue').innerHTML = a
+
+
+	</script>
+</body>
+</html>
